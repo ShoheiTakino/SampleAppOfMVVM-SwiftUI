@@ -40,6 +40,7 @@ struct SampleSubView: View {
 
 struct SampleView_Previews: PreviewProvider {
     static var previews: some View {
-        SampleView(viewModel: ViewModel(model: Model()))
+//        SampleView(viewModel: ViewModel(model: Model()))
+        SampleView2(viewModel: ViewModel2(model: Model()))
     }
 }
